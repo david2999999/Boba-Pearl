@@ -1,0 +1,36 @@
+.button-primary{
+  padding: 1.3rem;
+  width: 20rem;
+  display: block;
+  @include linear-gradient-taro;
+  border-radius: 5px;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  font-family: 'Vidaloka', serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  transition: all .3s;
+  -webkit-box-shadow: 5px 5px 18px 0px rgba(179,179,179,1);
+  -moz-box-shadow: 5px 5px 18px 0px rgba(179,179,179,1);
+  box-shadow: 5px 5px 18px 0px rgba(179,179,179,1);
+
+  &:hover{
+    cursor: pointer;
+    @include linear-gradient-milk-tea;
+    -webkit-box-shadow: 5px 5px 18px 0px rgba(168,165,168,1);
+    -moz-box-shadow: 5px 5px 18px 0px rgba(168,165,168,1);
+    box-shadow: 5px 5px 18px 0px rgba(168,165,168,1);
+    transform: translateY(-2px);
+    color: $color-grey-dark;
+  }
+
+  &:active{
+    transform: translateY(2px);
+    -webkit-box-shadow: 5px 5px 18px 0px rgba(179,179,179,1);
+    -moz-box-shadow: 5px 5px 18px 0px rgba(179,179,179,1);
+    box-shadow: 5px 5px 18px 0px rgba(179,179,179,1);
+
+  }
+
+}

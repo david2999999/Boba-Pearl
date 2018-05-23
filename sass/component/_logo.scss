@@ -1,15 +1,15 @@
 .logo{
-  padding: 4rem;
+  padding: 3rem;
   position: relative;
   width: 28rem;
   text-align: center;
-
   &__text{
     font-size: 3rem;
     font-family: 'Vidaloka', serif;
     letter-spacing: 1px;
     font-weight: 700;
     color: $color-grey-dark;
+    text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
   }
 
   &__cup{

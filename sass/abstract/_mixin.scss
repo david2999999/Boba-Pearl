@@ -1,3 +1,22 @@
+@mixin linear-gradient-bg-light-blue{
+  background: #C4E0E5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top right, #C4E0E5, white);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top right, #C4E0E5, white); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@mixin linear-gradient-taro{
+  background: $color-taro;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, $color-taro, $color-dark-taro);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, $color-taro, $color-dark-taro); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@mixin linear-gradient-milk-tea{
+
+  background: $color-milk-tea;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, $color-milk-tea, $color-mango);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, $color-milk-tea, $color-mango); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
 @mixin absCenter{
   position: absolute;
   top: 50%;

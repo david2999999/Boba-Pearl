@@ -20,11 +20,51 @@ body, html {
   font-size: 62.5%;
   padding: 0;
   margin: 0;
-  background-color: #F5F5DC;
+  background-color: white;
   overflow-x: hidden; }
 
+.button-primary {
+  padding: 1.3rem;
+  width: 20rem;
+  display: block;
+  background: #D0AAF3;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #D0AAF3, #601E9E);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #D0AAF3, #601E9E);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 5px;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  font-family: 'Vidaloka', serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  transition: all .3s;
+  -webkit-box-shadow: 5px 5px 18px 0px #b3b3b3;
+  -moz-box-shadow: 5px 5px 18px 0px #b3b3b3;
+  box-shadow: 5px 5px 18px 0px #b3b3b3; }
+  .button-primary:hover {
+    cursor: pointer;
+    background: #FFC3A0;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #FFC3A0, #FFEB7F);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #FFC3A0, #FFEB7F);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-box-shadow: 5px 5px 18px 0px #a8a5a8;
+    -moz-box-shadow: 5px 5px 18px 0px #a8a5a8;
+    box-shadow: 5px 5px 18px 0px #a8a5a8;
+    transform: translateY(-2px);
+    color: #777; }
+  .button-primary:active {
+    transform: translateY(2px);
+    -webkit-box-shadow: 5px 5px 18px 0px #b3b3b3;
+    -moz-box-shadow: 5px 5px 18px 0px #b3b3b3;
+    box-shadow: 5px 5px 18px 0px #b3b3b3; }
+
 .logo {
-  padding: 4rem;
+  padding: 3rem;
   position: relative;
   width: 28rem;
   text-align: center; }
@@ -33,7 +73,8 @@ body, html {
     font-family: 'Vidaloka', serif;
     letter-spacing: 1px;
     font-weight: 700;
-    color: #777; }
+    color: #777;
+    text-shadow: 1px 1px 1px #969696; }
   .logo__cup-1 {
     position: absolute;
     width: 4rem;
@@ -119,3 +160,20 @@ body, html {
     border-top-left-radius: 2px;
     transform: rotate(180deg);
     opacity: .8; }
+
+.header-1 {
+  background: #C4E0E5;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top right, #C4E0E5, white);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top right, #C4E0E5, white);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-bottom: 2px solid lightblue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .header-1__logo {
+    width: 28rem;
+    padding-top: 1rem; }
+  .header-1__button {
+    width: 20rem; }

@@ -1,0 +1,16 @@
+.header-1{
+  @include linear-gradient-bg-light-blue;
+  border-bottom: 2px solid lightblue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  &__logo{
+    width: 28rem;
+    padding-top: 1rem;
+  }
+
+  &__button{
+    width: 20rem;
+  }
+}
