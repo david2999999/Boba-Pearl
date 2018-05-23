@@ -1,0 +1,121 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+  box-sizing: inherit; }
+
+a:active, a:visited {
+  text-decoration: none !important; }
+
+a:hover {
+  text-decoration: none !important; }
+
+body, html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  background-color: #F5F5DC;
+  overflow-x: hidden; }
+
+.logo {
+  padding: 4rem;
+  position: relative;
+  width: 28rem;
+  text-align: center; }
+  .logo__text {
+    font-size: 3rem;
+    font-family: 'Vidaloka', serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: #777; }
+  .logo__cup-1 {
+    position: absolute;
+    width: 4rem;
+    top: 2rem;
+    left: 0;
+    transform: rotate(-10deg); }
+  .logo__cup-2 {
+    position: absolute;
+    width: 4rem;
+    top: 2rem;
+    right: 2rem;
+    transform: rotate(10deg); }
+
+.xs-cup {
+  border-left: .7rem solid transparent;
+  border-right: .7rem solid transparent;
+  height: 1.2rem;
+  width: 4rem;
+  transform: rotate(180deg);
+  position: relative;
+  margin: 1rem; }
+  .xs-cup__tea {
+    border-bottom: 5rem solid #D0AAF3; }
+  .xs-cup__milk-tea {
+    border-bottom: 5rem solid #FFC3A0; }
+  .xs-cup__lid {
+    width: 4rem;
+    height: 2rem;
+    /* as the half of the width */
+    background-color: white;
+    border-top-left-radius: 2.1rem;
+    /* 100px of height + 10px of border */
+    border-top-right-radius: 2.1rem;
+    /* 100px of height + 10px of border */
+    border: 1px solid white;
+    border-bottom: 0;
+    transform: rotate(180deg) translateY(-5rem) translateX(0.7rem);
+    position: absolute;
+    top: 0;
+    z-index: 1; }
+  .xs-cup__boba-container {
+    width: 2.5rem;
+    height: 2rem;
+    position: relative; }
+  .xs-cup__boba {
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    background-color: #777;
+    position: absolute; }
+    .xs-cup__boba-1 {
+      top: 0;
+      right: 0; }
+    .xs-cup__boba-2 {
+      top: 3px;
+      right: 5px; }
+    .xs-cup__boba-3 {
+      top: 10px;
+      right: 4px; }
+    .xs-cup__boba-4 {
+      top: 8px;
+      right: 10px; }
+    .xs-cup__boba-5 {
+      top: 7px;
+      right: 17px; }
+    .xs-cup__boba-6 {
+      right: 10px; }
+    .xs-cup__boba-7 {
+      top: 6px;
+      right: 0px; }
+    .xs-cup__boba-8 {
+      top: 2px;
+      left: 5px; }
+  .xs-cup__straw {
+    width: .7rem;
+    height: 3rem;
+    background-color: #AFEEEE;
+    z-index: 100;
+    position: absolute;
+    top: 50px;
+    left: 9px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    transform: rotate(180deg);
+    opacity: .8; }

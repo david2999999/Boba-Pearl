@@ -1,0 +1,32 @@
+.logo{
+  padding: 4rem;
+  position: relative;
+  width: 28rem;
+  text-align: center;
+
+  &__text{
+    font-size: 3rem;
+    font-family: 'Vidaloka', serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: $color-grey-dark;
+  }
+
+  &__cup{
+    &-1{
+      position: absolute;
+      width: 4rem;
+      top: 2rem;
+      left: 0;
+      transform: rotate(-10deg);
+    }
+
+    &-2{
+      position: absolute;
+      width: 4rem;
+      top: 2rem;
+      right: 2rem;
+      transform: rotate(10deg);
+    }
+  }
+}

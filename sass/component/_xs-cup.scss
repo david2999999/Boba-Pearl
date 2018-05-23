@@ -1,0 +1,100 @@
+.xs-cup{
+  border-left: .7rem solid transparent;
+  border-right: .7rem solid transparent;
+  height: 1.2rem;
+  width: 4rem;
+  transform: rotate(180deg);
+  position: relative;
+  margin: 1rem;
+
+  &__tea{
+    border-bottom: 5rem solid $color-taro;
+  }
+
+  &__milk-tea{
+    border-bottom: 5rem solid $color-milk-tea;
+  }
+
+  &__lid{
+    width: 4rem;
+    height: 2rem; /* as the half of the width */
+    background-color: white;
+    border-top-left-radius: 2.1rem;  /* 100px of height + 10px of border */
+    border-top-right-radius: 2.1rem; /* 100px of height + 10px of border */
+    border: 1px solid white;
+    border-bottom: 0;
+    transform: rotate(180deg) translateY(-5rem) translateX(.7rem);
+    position: absolute;
+    top: 0;
+    z-index: 1;
+  }
+
+  &__boba-container{
+    width: 2.5rem;
+    height: 2rem;
+    //background-color: black;
+    position: relative;
+  }
+
+  &__boba{
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    background-color: $color-grey-dark;
+    position: absolute;
+
+    &-1{
+      top: 0;
+      right: 0;
+    }
+
+    &-2{
+      top: 3px;
+      right: 5px;
+    }
+
+    &-3{
+      top: 10px;
+      right: 4px;
+    }
+
+    &-4{
+      top: 8px;
+      right: 10px;
+    }
+
+    &-5{
+      top: 7px;
+      right: 17px;
+    }
+
+    &-6{
+      right: 10px;
+    }
+
+    &-7{
+      top: 6px;
+      right: 0px;
+    }
+
+    &-8{
+      top: 2px;
+      left: 5px;
+    }
+  }
+
+
+  &__straw{
+    width: .7rem;
+    height: 3rem;
+    background-color: $color-turquoise;
+    z-index: 100;
+    position: absolute;
+    top: 50px;
+    left: 9px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    transform: rotate(180deg);
+    opacity: .8;
+  }
+}
