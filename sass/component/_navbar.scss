@@ -1,0 +1,73 @@
+.navbar{
+  height: 8rem;
+  border-bottom: 2px solid $color-taro;
+  line-height: 8rem;
+
+  &__hamburger{
+    font-size: 3rem;
+    color: $color-dark-taro;
+    float: right;
+    display: none;
+    width: 26px;
+    text-align: right;
+    margin-right: 3rem;
+    line-height: 8rem;
+    transition: all .3s;
+
+    &__toggle{
+      display: none;
+    }
+
+    &:hover{
+      cursor: pointer;
+      color: $color-milk-tea;
+    }
+
+    @include respond(phone) {
+      display: block;
+    }
+  }
+
+  &__menu{
+    font-size: 2rem;
+    text-align: center;
+    transition: all 1s;
+    font-weight: bold;
+
+    &__list{
+      clear: right;
+      text-decoration: none;
+      color: $color-grey-dark;
+      margin: 0 1rem;
+      line-height: 8rem;
+      transition: all .3s;
+      backface-visibility: hidden;
+
+      &:hover{
+        color: $color-milk-tea;
+      }
+
+      @include respond(phone) {
+        display: block;
+        border-bottom: 1px solid $color-taro;
+        margin: 0;
+
+        &:hover{
+          color: $color-milk-tea;
+          border-bottom: 1px solid $color-milk-tea;
+        }
+      }
+
+    }
+
+    @include respond(phone) {
+      text-align: center;
+      display: none;
+    }
+
+  }
+}
+
+#toggle:checked + .navbar__menu{
+  display: block;
+}

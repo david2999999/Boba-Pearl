@@ -1,11 +1,9 @@
 .button-primary{
-  padding: 1.3rem;
-  width: 20rem;
+  padding: 1rem;
+  width: 15rem;
   display: block;
-  @include linear-gradient-taro;
   border-radius: 5px;
-  color: white;
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
   font-family: 'Vidaloka', serif;
   font-weight: 700;
@@ -15,15 +13,37 @@
   -moz-box-shadow: 5px 5px 18px 0px rgba(179,179,179,1);
   box-shadow: 5px 5px 18px 0px rgba(179,179,179,1);
 
-  &:hover{
-    cursor: pointer;
-    @include linear-gradient-milk-tea;
-    -webkit-box-shadow: 5px 5px 18px 0px rgba(168,165,168,1);
-    -moz-box-shadow: 5px 5px 18px 0px rgba(168,165,168,1);
-    box-shadow: 5px 5px 18px 0px rgba(168,165,168,1);
-    transform: translateY(-2px);
-    color: $color-grey-dark;
+  &__taro{
+    @include linear-gradient-taro;
+    color: white;
+
+    &:hover{
+      cursor: pointer;
+      @include linear-gradient-milk-tea;
+      -webkit-box-shadow: 5px 5px 18px 0px rgba(168,165,168,1);
+      -moz-box-shadow: 5px 5px 18px 0px rgba(168,165,168,1);
+      box-shadow: 5px 5px 18px 0px rgba(168,165,168,1);
+      transform: translateY(-2px);
+      color: $color-grey-dark;
+    }
   }
+
+  &__milk-tea{
+    @include linear-gradient-milk-tea;
+    color: $color-grey-dark;
+
+    &:hover{
+      cursor: pointer;
+      @include linear-gradient-taro;
+      -webkit-box-shadow: 5px 5px 18px 0px rgba(168,165,168,1);
+      -moz-box-shadow: 5px 5px 18px 0px rgba(168,165,168,1);
+      box-shadow: 5px 5px 18px 0px rgba(168,165,168,1);
+      transform: translateY(-2px);
+      color: white;
+    }
+  }
+
+
 
   &:active{
     transform: translateY(2px);

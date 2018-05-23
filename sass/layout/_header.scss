@@ -1,9 +1,23 @@
 .header-1{
   @include linear-gradient-bg-light-blue;
+  //background-color: $color-background-light;
   border-bottom: 2px solid lightblue;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+
+  &__right{
+    padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+    width: 33rem;
+    //background-color: #9463ff;
+
+    @include respond(phone) {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+  }
 
   &__logo{
     width: 28rem;
@@ -12,5 +26,10 @@
 
   &__button{
     width: 20rem;
+    text-decoration: none;
   }
+}
+
+.header-2{
+
 }
