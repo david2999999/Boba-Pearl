@@ -52,7 +52,8 @@
         border-bottom: 1px solid $color-taro;
         margin: 0;
         background-color: white;
-        z-index: 10;
+        z-index: 100;
+        position: relative;
 
         &:hover{
           color: $color-milk-tea;

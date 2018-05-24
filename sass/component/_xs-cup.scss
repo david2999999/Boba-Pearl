@@ -15,6 +15,22 @@
     border-bottom: 5rem solid $color-milk-tea;
   }
 
+  &__coffee{
+    border-bottom: 5rem solid $color-coffee;
+  }
+
+  &__milk{
+    border-bottom: 5rem solid $color-light-beige;
+  }
+
+  &__smoothie{
+    border-bottom: 5rem solid $color-smoothie;
+  }
+
+  &__green-tea{
+    border-bottom: 5rem solid $color-green-tea;
+  }
+
   &__lid{
     width: 4rem;
     height: 2rem; /* as the half of the width */

@@ -139,7 +139,8 @@ body, html {
     background: linear-gradient(to top, #48b1bf, #06beb6);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     margin: 4rem 1rem 0 1rem;
-    border-radius: 5px; }
+    border-radius: 5px;
+    min-width: 50rem; }
     .menu__section__selection {
       background-color: white;
       padding: 2rem;
@@ -150,10 +151,23 @@ body, html {
       -webkit-box-shadow: 1px 5px 12px 0px #4f4f4f;
       -moz-box-shadow: 1px 5px 12px 0px #4f4f4f;
       box-shadow: 1px 5px 12px 0px #4f4f4f;
-      transition: all .3s; }
+      transition: all .3s;
+      position: relative;
+      z-index: 1;
+      min-width: 40rem; }
       .menu__section__selection:hover {
         cursor: pointer;
         transform: translateY(-3px); }
+      .menu__section__selection__pic {
+        display: inline-block;
+        position: absolute;
+        top: 1rem;
+        right: 1rem; }
+      .menu__section__selection__hc {
+        font-size: 2rem;
+        position: absolute;
+        top: 3rem;
+        right: 8rem; }
 
 .navbar {
   height: 8rem;
@@ -199,7 +213,8 @@ body, html {
           border-bottom: 1px solid #D0AAF3;
           margin: 0;
           background-color: white;
-          z-index: 10; }
+          z-index: 100;
+          position: relative; }
           .navbar__menu__list:hover {
             color: #FFC3A0;
             border-bottom: 1px solid #FFC3A0; } }
@@ -223,6 +238,14 @@ body, html {
     border-bottom: 5rem solid #D0AAF3; }
   .xs-cup__milk-tea {
     border-bottom: 5rem solid #FFC3A0; }
+  .xs-cup__coffee {
+    border-bottom: 5rem solid #6f4e37; }
+  .xs-cup__milk {
+    border-bottom: 5rem solid #FFECDC; }
+  .xs-cup__smoothie {
+    border-bottom: 5rem solid #ffe8ee; }
+  .xs-cup__green-tea {
+    border-bottom: 5rem solid #7FBF7F; }
   .xs-cup__lid {
     width: 4rem;
     height: 2rem;
