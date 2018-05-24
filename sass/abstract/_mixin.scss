@@ -15,8 +15,35 @@
   background: $color-milk-tea;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, $color-milk-tea, $color-mango);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, $color-milk-tea, $color-mango); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@mixin linear-gradient-taro-white{
+  background: $color-taro;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, $color-taro, white);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, $color-taro, white);
+}
+
+@mixin linear-gradient-digital-water{
+  background: #74ebd5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+
+@mixin linear-gradient-broken-hearts{
+  background: #d9a7c7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top left, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top left, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+@mixin linear-gradient-socialive{
+  background: #06beb6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #48b1bf, #06beb6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #48b1bf, #06beb6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
 @mixin absCenter{
   position: absolute;
   top: 50%;

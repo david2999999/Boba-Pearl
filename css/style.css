@@ -23,7 +23,20 @@ body, html {
   padding: 0;
   margin: 0;
   background-color: white;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  font-family: 'Vidaloka', serif; }
+
+.heading-primary {
+  font-size: 6rem;
+  color: white;
+  font-weight: 700; }
+  .heading-primary__secondary {
+    font-size: 3rem;
+    display: inline-block;
+    width: 20rem;
+    margin-left: 6rem;
+    margin-top: -2rem;
+    letter-spacing: 1px; }
 
 .button-primary {
   padding: 1rem;
@@ -111,6 +124,37 @@ body, html {
     right: 2rem;
     transform: rotate(10deg); }
 
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 5rem; }
+  .menu__section {
+    flex: 1;
+    padding: 7rem;
+    background: #06beb6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #48b1bf, #06beb6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #48b1bf, #06beb6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 4rem 1rem 0 1rem;
+    border-radius: 5px; }
+    .menu__section__selection {
+      background-color: white;
+      padding: 2rem;
+      margin-top: 2rem;
+      color: #777;
+      font-size: 4rem;
+      border-radius: 3px;
+      -webkit-box-shadow: 1px 5px 12px 0px #4f4f4f;
+      -moz-box-shadow: 1px 5px 12px 0px #4f4f4f;
+      box-shadow: 1px 5px 12px 0px #4f4f4f;
+      transition: all .3s; }
+      .menu__section__selection:hover {
+        cursor: pointer;
+        transform: translateY(-3px); }
+
 .navbar {
   height: 8rem;
   border-bottom: 2px solid #D0AAF3;
@@ -145,14 +189,17 @@ body, html {
       margin: 0 1rem;
       line-height: 8rem;
       transition: all .3s;
-      backface-visibility: hidden; }
+      backface-visibility: hidden;
+      letter-spacing: 1px; }
       .navbar__menu__list:hover {
         color: #FFC3A0; }
       @media only screen and (max-width: 37.5em) {
         .navbar__menu__list {
           display: block;
           border-bottom: 1px solid #D0AAF3;
-          margin: 0; }
+          margin: 0;
+          background-color: white;
+          z-index: 10; }
           .navbar__menu__list:hover {
             color: #FFC3A0;
             border-bottom: 1px solid #FFC3A0; } }

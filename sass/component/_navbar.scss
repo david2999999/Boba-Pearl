@@ -42,7 +42,7 @@
       line-height: 8rem;
       transition: all .3s;
       backface-visibility: hidden;
-
+      letter-spacing: 1px;
       &:hover{
         color: $color-milk-tea;
       }
@@ -51,6 +51,8 @@
         display: block;
         border-bottom: 1px solid $color-taro;
         margin: 0;
+        background-color: white;
+        z-index: 10;
 
         &:hover{
           color: $color-milk-tea;
