@@ -29,7 +29,7 @@
   }
 
   &__menu{
-    font-size: 2rem;
+    font-size: 1.6rem;
     text-align: center;
     transition: all 1s;
     font-weight: bold;
@@ -56,6 +56,7 @@
         background-color: white;
         z-index: 100;
         position: relative;
+        color: $color-grey-dark;
 
         &:hover{
           color: $color-milk-tea;

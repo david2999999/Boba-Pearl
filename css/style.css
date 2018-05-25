@@ -25,16 +25,28 @@ body, html {
   background-color: #eeeeee;
   overflow-x: hidden;
   font-family: 'Vidaloka', serif; }
+  @media only screen and (min-width: 112.5em) {
+    body, html {
+      font-size: 62.5%; } }
+  @media only screen and (max-width: 75em) {
+    body, html {
+      font-size: 56.25%; } }
+  @media only screen and (max-width: 62.5em) {
+    body, html {
+      font-size: 50%; } }
+  @media only screen and (max-width: 37.5em) {
+    body, html {
+      font-size: 45%; } }
 
 .heading-primary {
-  font-size: 5rem;
+  font-size: 3.75rem;
   color: white;
   font-weight: 700;
-  margin-bottom: 2rem; }
+  margin-bottom: 1rem; }
   .heading-primary__secondary {
     font-size: 2.5rem;
     display: inline-block;
-    margin-left: 3rem;
+    margin-left: 2rem;
     margin-top: -20rem;
     letter-spacing: 1px; }
 
@@ -51,14 +63,14 @@ body, html {
   transition: all .3s;
   filter: brightness(1.2); }
   .button-primary__taro {
-    border: 3px solid #D0AAF3;
+    border: 2px solid #D0AAF3;
     color: #D0AAF3; }
     .button-primary__taro:hover {
       cursor: pointer;
       transform: translateY(-2px);
       color: #D0AAF3; }
   .button-primary__milk-tea {
-    border: 3px solid #FFC3A0;
+    border: 2px solid #FFC3A0;
     color: #FFC3A0; }
     .button-primary__milk-tea:hover {
       cursor: pointer;
@@ -122,7 +134,7 @@ body, html {
       background-color: white;
       padding: 2rem;
       color: #777;
-      font-size: 3rem;
+      font-size: 2.5rem;
       border-radius: 3px;
       -webkit-box-shadow: 1px 5px 12px 0px #4f4f4f;
       -moz-box-shadow: 1px 5px 12px 0px #4f4f4f;
@@ -143,9 +155,9 @@ body, html {
         top: 0;
         right: 1rem; }
       .menu__section__selection__hc {
-        font-size: 2rem;
+        font-size: 1.6rem;
         position: absolute;
-        top: 2.5rem;
+        top: 2.8rem;
         right: 8rem; }
     .menu__section__horizontal__list {
       display: flex;
@@ -155,15 +167,19 @@ body, html {
         background-color: white;
         padding: 3rem;
         margin: 2rem 5rem 0 0;
-        width: 40rem;
+        width: 35rem;
         border-radius: 1rem;
         text-align: center;
         -webkit-box-shadow: 1px 5px 12px 0px #4f4f4f;
         -moz-box-shadow: 1px 5px 12px 0px #4f4f4f;
-        box-shadow: 1px 5px 12px 0px #4f4f4f; }
+        box-shadow: 1px 5px 12px 0px #4f4f4f;
+        transition: all .3s; }
         .menu__section__horizontal__list__item__title {
-          font-size: 3rem;
+          font-size: 2.5rem;
           color: #777; }
+        .menu__section__horizontal__list__item:hover {
+          cursor: pointer;
+          transform: translateY(-3px); }
 
 .navbar {
   height: 8rem;
@@ -188,7 +204,7 @@ body, html {
       .navbar__hamburger {
         display: block; } }
   .navbar__menu {
-    font-size: 2rem;
+    font-size: 1.6rem;
     text-align: center;
     transition: all 1s;
     font-weight: bold; }
@@ -210,7 +226,8 @@ body, html {
           margin: 0;
           background-color: white;
           z-index: 100;
-          position: relative; }
+          position: relative;
+          color: #777; }
           .navbar__menu__list:hover {
             color: #FFC3A0;
             border-bottom: 1px solid #FFC3A0; } }
