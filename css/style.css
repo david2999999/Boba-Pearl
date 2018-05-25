@@ -27,13 +27,12 @@ body, html {
   font-family: 'Vidaloka', serif; }
 
 .heading-primary {
-  font-size: 6rem;
+  font-size: 5rem;
   color: white;
   font-weight: 700;
-  width: fit-content;
-  display: inline-block; }
+  margin-bottom: 2rem; }
   .heading-primary__secondary {
-    font-size: 3rem;
+    font-size: 2.5rem;
     display: inline-block;
     margin-left: 3rem;
     margin-top: -20rem;
@@ -44,7 +43,7 @@ body, html {
   width: 15rem;
   display: block;
   border-radius: 5px;
-  font-size: 2rem;
+  font-size: 1.7rem;
   text-align: center;
   font-family: 'Vidaloka', serif;
   font-weight: 700;
@@ -109,18 +108,21 @@ body, html {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     margin: 4rem 1rem 0 1rem;
     border-radius: 5px;
-    min-width: 50rem;
-    display: block; }
+    display: block;
+    min-width: 50rem; }
     .menu__section-1 {
       flex: 1; }
     .menu__section-2 {
       flex: 2; }
+    .menu__section__container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around; }
     .menu__section__selection {
       background-color: white;
       padding: 2rem;
-      margin-top: 2rem;
       color: #777;
-      font-size: 4rem;
+      font-size: 3rem;
       border-radius: 3px;
       -webkit-box-shadow: 1px 5px 12px 0px #4f4f4f;
       -moz-box-shadow: 1px 5px 12px 0px #4f4f4f;
@@ -128,19 +130,22 @@ body, html {
       transition: all .3s;
       position: relative;
       z-index: 1;
-      min-width: 40rem; }
+      min-width: 40rem;
+      display: inline-block;
+      width: 45%;
+      margin-top: 3rem; }
       .menu__section__selection:hover {
         cursor: pointer;
         transform: translateY(-3px); }
       .menu__section__selection__pic {
         display: inline-block;
         position: absolute;
-        top: 1rem;
+        top: 0;
         right: 1rem; }
       .menu__section__selection__hc {
         font-size: 2rem;
         position: absolute;
-        top: 3rem;
+        top: 2.5rem;
         right: 8rem; }
     .menu__section__horizontal__list {
       display: flex;
@@ -150,11 +155,14 @@ body, html {
         background-color: white;
         padding: 3rem;
         margin: 2rem 5rem 0 0;
-        width: 50rem;
+        width: 40rem;
         border-radius: 1rem;
-        text-align: center; }
+        text-align: center;
+        -webkit-box-shadow: 1px 5px 12px 0px #4f4f4f;
+        -moz-box-shadow: 1px 5px 12px 0px #4f4f4f;
+        box-shadow: 1px 5px 12px 0px #4f4f4f; }
         .menu__section__horizontal__list__item__title {
-          font-size: 4rem;
+          font-size: 3rem;
           color: #777; }
 
 .navbar {
@@ -234,6 +242,8 @@ body, html {
     border-bottom: 5rem solid #ffe8ee; }
   .xs-cup__green-tea {
     border-bottom: 5rem solid #7FBF7F; }
+  .xs-cup__slush {
+    border-bottom: 5rem solid #AFEEEE; }
   .xs-cup__lid {
     width: 4rem;
     height: 2rem;

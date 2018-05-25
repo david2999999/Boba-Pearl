@@ -8,8 +8,8 @@
     @include linear-gradient-socialive;
     margin: 4rem 1rem 0 1rem;
     border-radius: 5px;
-    min-width: 50rem;
     display: block;
+    min-width: 50rem;
 
     &-1{
       flex: 1;
@@ -19,12 +19,17 @@
       flex: 2;
     }
 
+    &__container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
     &__selection{
       background-color: white;
       padding: 2rem;
-      margin-top: 2rem;
       color: $color-grey-dark;
-      font-size: 4rem;
+      font-size: 3rem;
       border-radius: 3px;
       -webkit-box-shadow: 1px 5px 12px 0px rgba(79,79,79,1);
       -moz-box-shadow: 1px 5px 12px 0px rgba(79,79,79,1);
@@ -33,6 +38,9 @@
       position: relative;
       z-index: 1;
       min-width: 40rem;
+      display: inline-block;
+      width: 45%;
+      margin-top: 3rem;
 
       &:hover{
         cursor: pointer;
@@ -42,14 +50,14 @@
       &__pic{
         display: inline-block;
         position: absolute;
-        top: 1rem;
+        top: 0;
         right: 1rem;
       }
 
       &__hc{
         font-size: 2rem;
         position: absolute;
-        top: 3rem;
+        top: 2.5rem;
         right: 8rem;
       }
 
@@ -64,16 +72,20 @@
         flex-wrap: wrap;
         justify-content: space-around;
 
+
         &__item{
           background-color: white;
           padding: 3rem;
           margin: 2rem 5rem 0 0;
-          width: 50rem;
+          width: 40rem;
           border-radius: 1rem;
           text-align: center;
+          -webkit-box-shadow: 1px 5px 12px 0px rgba(79,79,79,1);
+          -moz-box-shadow: 1px 5px 12px 0px rgba(79,79,79,1);
+          box-shadow: 1px 5px 12px 0px rgba(79,79,79,1);
 
           &__title{
-            font-size: 4rem;
+            font-size: 3rem;
             color: $color-grey-dark;
           }
 
