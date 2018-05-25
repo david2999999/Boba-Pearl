@@ -1,7 +1,7 @@
 .navbar{
   height: 8rem;
-  border-bottom: 2px solid $color-taro;
   line-height: 8rem;
+  background: #272b33;
 
   &__hamburger{
     font-size: 3rem;
@@ -37,12 +37,14 @@
     &__list{
       clear: right;
       text-decoration: none;
-      color: $color-grey-dark;
+      color: white;
       margin: 0 1rem;
       line-height: 8rem;
       transition: all .3s;
       backface-visibility: hidden;
       letter-spacing: 1px;
+
+
       &:hover{
         color: $color-milk-tea;
       }

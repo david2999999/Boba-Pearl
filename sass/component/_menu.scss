@@ -9,6 +9,7 @@
     margin: 4rem 1rem 0 1rem;
     border-radius: 5px;
     min-width: 50rem;
+    display: block;
 
     &-1{
       flex: 1;
@@ -53,7 +54,33 @@
       }
 
     }
+
+    &__horizontal{
+      //display: inline-block;
+      //background-color: brown;
+
+      &__list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        &__item{
+          background-color: white;
+          padding: 3rem;
+          margin: 2rem 5rem 0 0;
+          width: 50rem;
+          border-radius: 1rem;
+          text-align: center;
+
+          &__title{
+            font-size: 4rem;
+            color: $color-grey-dark;
+          }
+
+        }
+      }
+
+
+    }
   }
-
-
 }

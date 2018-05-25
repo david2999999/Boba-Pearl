@@ -1,7 +1,5 @@
 .header-1{
-  @include linear-gradient-bg-light-blue;
-  //background-color: $color-background-light;
-  border-bottom: 2px solid lightblue;
+  background: #272b33;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -31,5 +29,6 @@
 }
 
 .header-2{
-
+  @include linear-gradient-digital-water;
+  height: 2px;
 }

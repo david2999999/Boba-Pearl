@@ -37,7 +37,7 @@
     background-color: white;
     border-top-left-radius: 2.1rem;  /* 100px of height + 10px of border */
     border-top-right-radius: 2.1rem; /* 100px of height + 10px of border */
-    border: 1px solid white;
+    border: 2px solid $color-light-beige;
     border-bottom: 0;
     transform: rotate(180deg) translateY(-5rem) translateX(.7rem);
     position: absolute;
