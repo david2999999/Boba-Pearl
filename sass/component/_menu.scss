@@ -3,6 +3,7 @@
   flex-wrap: wrap;
   justify-content: space-around;
   clear: right;
+  color: $color-grey-dark;
 
   &__section{
     padding: 7rem;
@@ -29,7 +30,7 @@
     &__selection{
       background-color: white;
       padding: 2rem;
-      color: $color-grey-dark;
+
       font-size: 2rem;
       border-radius: 3px;
       -webkit-box-shadow: 1px 5px 12px 0px rgba(79,79,79,1);
@@ -97,6 +98,52 @@
       }
 
 
+    }
+
+    &__flavor{
+      display: flex;
+      margin-bottom: 2rem;
+      flex-wrap: wrap;
+
+      &__item{
+        background-color: white;
+        padding: 2rem;
+        margin: 0 1rem 0 1rem;
+        flex: 1;
+        border-radius: 5px;
+        text-align: center;
+
+        &__title{
+          font-size: 2rem;
+          margin-bottom: 1.5rem;
+        }
+
+        &__container{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+        }
+
+        &__ul{
+          font-size: 1.6rem;
+          list-style-type: none;
+
+          &__li{
+            margin: 0 4px 5px 4px;
+
+
+            &__a{
+              text-decoration: none;
+              color: inherit;
+
+              &:hover{
+                color: $color-green-tea;
+              }
+            }
+          }
+        }
+
+      }
     }
   }
 }

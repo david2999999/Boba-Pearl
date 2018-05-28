@@ -111,7 +111,8 @@ body, html {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  clear: right; }
+  clear: right;
+  color: #777; }
   .menu__section {
     padding: 7rem;
     background: #06beb6;
@@ -135,7 +136,6 @@ body, html {
     .menu__section__selection {
       background-color: white;
       padding: 2rem;
-      color: #777;
       font-size: 2rem;
       border-radius: 3px;
       -webkit-box-shadow: 1px 5px 12px 0px #4f4f4f;
@@ -182,6 +182,34 @@ body, html {
         .menu__section__horizontal__list__item:hover {
           cursor: pointer;
           transform: translateY(-3px); }
+    .menu__section__flavor {
+      display: flex;
+      margin-bottom: 2rem;
+      flex-wrap: wrap; }
+      .menu__section__flavor__item {
+        background-color: white;
+        padding: 2rem;
+        margin: 0 1rem 0 1rem;
+        flex: 1;
+        border-radius: 5px;
+        text-align: center; }
+        .menu__section__flavor__item__title {
+          font-size: 2rem;
+          margin-bottom: 1.5rem; }
+        .menu__section__flavor__item__container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around; }
+        .menu__section__flavor__item__ul {
+          font-size: 1.6rem;
+          list-style-type: none; }
+          .menu__section__flavor__item__ul__li {
+            margin: 0 4px 5px 4px; }
+            .menu__section__flavor__item__ul__li__a {
+              text-decoration: none;
+              color: inherit; }
+              .menu__section__flavor__item__ul__li__a:hover {
+                color: #7FBF7F; }
 
 .navbar {
   height: 8rem;
