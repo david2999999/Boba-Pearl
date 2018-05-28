@@ -39,15 +39,15 @@ body, html {
       font-size: 45%; } }
 
 .heading-primary {
-  font-size: 3.75rem;
+  font-size: 3rem;
   color: white;
   font-weight: 700;
   margin-bottom: 1rem; }
   .heading-primary__secondary {
-    font-size: 2.5rem;
+    font-size: 2rem;
     display: inline-block;
     margin-left: 2rem;
-    margin-top: -20rem;
+    margin-top: -22rem;
     letter-spacing: 1px; }
 
 .button-primary {
@@ -92,7 +92,8 @@ body, html {
     font-family: 'Vidaloka', serif;
     letter-spacing: 1px;
     font-weight: 700;
-    color: white; }
+    color: white;
+    text-shadow: 0px 0px .5rem #FFFFFF; }
   .logo__cup-1 {
     position: absolute;
     width: 4rem;
@@ -109,7 +110,8 @@ body, html {
 .menu {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around; }
+  justify-content: space-around;
+  clear: right; }
   .menu__section {
     padding: 7rem;
     background: #06beb6;
@@ -134,7 +136,7 @@ body, html {
       background-color: white;
       padding: 2rem;
       color: #777;
-      font-size: 2.5rem;
+      font-size: 2rem;
       border-radius: 3px;
       -webkit-box-shadow: 1px 5px 12px 0px #4f4f4f;
       -moz-box-shadow: 1px 5px 12px 0px #4f4f4f;
@@ -145,7 +147,7 @@ body, html {
       min-width: 40rem;
       display: inline-block;
       width: 45%;
-      margin-top: 3rem; }
+      margin-top: 2rem; }
       .menu__section__selection:hover {
         cursor: pointer;
         transform: translateY(-3px); }
@@ -157,7 +159,7 @@ body, html {
       .menu__section__selection__hc {
         font-size: 1.6rem;
         position: absolute;
-        top: 2.8rem;
+        top: 2.5rem;
         right: 8rem; }
     .menu__section__horizontal__list {
       display: flex;
@@ -165,9 +167,9 @@ body, html {
       justify-content: space-around; }
       .menu__section__horizontal__list__item {
         background-color: white;
-        padding: 3rem;
-        margin: 2rem 5rem 0 0;
-        width: 35rem;
+        padding: 2rem;
+        margin: 1.5rem 5rem 0 0;
+        width: 30rem;
         border-radius: 1rem;
         text-align: center;
         -webkit-box-shadow: 1px 5px 12px 0px #4f4f4f;
@@ -175,7 +177,7 @@ body, html {
         box-shadow: 1px 5px 12px 0px #4f4f4f;
         transition: all .3s; }
         .menu__section__horizontal__list__item__title {
-          font-size: 2.5rem;
+          font-size: 2rem;
           color: #777; }
         .menu__section__horizontal__list__item:hover {
           cursor: pointer;
@@ -187,19 +189,19 @@ body, html {
   background: #272b33; }
   .navbar__hamburger {
     font-size: 3rem;
-    color: #a155e7;
+    color: white;
     float: right;
     display: none;
-    width: 26px;
-    text-align: right;
-    margin-right: 3rem;
+    width: 40px;
+    text-align: center;
     line-height: 8rem;
-    transition: all .3s; }
+    transition: all .3s;
+    margin-right: 3rem; }
     .navbar__hamburger__toggle {
       display: none; }
     .navbar__hamburger:hover {
       cursor: pointer;
-      color: #FFC3A0; }
+      color: #AFEEEE; }
     @media only screen and (max-width: 37.5em) {
       .navbar__hamburger {
         display: block; } }

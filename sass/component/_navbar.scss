@@ -5,14 +5,14 @@
 
   &__hamburger{
     font-size: 3rem;
-    color: $color-dark-taro;
+    color: white;
     float: right;
     display: none;
-    width: 26px;
-    text-align: right;
-    margin-right: 3rem;
+    width: 40px;
+    text-align: center;
     line-height: 8rem;
     transition: all .3s;
+    margin-right: 3rem;
 
     &__toggle{
       display: none;
@@ -20,7 +20,7 @@
 
     &:hover{
       cursor: pointer;
-      color: $color-milk-tea;
+      color: $color-turquoise;
     }
 
     @include respond(phone) {
