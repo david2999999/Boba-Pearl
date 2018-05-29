@@ -1,20 +1,19 @@
-.boba{
-  height: 1.5rem;
-  width: 1.5rem;
-  border-radius: 50%;
+.jelly{
+  padding: 6px 12px 6px 12px;
   display: inline-block;
   margin-left: 1rem;
+  border-radius: 2px;
 
-  &__tapioca{
-    background: black;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom left, black, lightcyan);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom left, black, lightcyan);
+  &__aloe-vera{
+    background: #B2FFB2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom left, #B2FFB2, white);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom left, #B2FFB2, white); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 
   &__strawberry{
-    background: #ab0d26;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom left, #ff9999, #ab0d26);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom left, #ff9999, #ab0d26);
+    background: #ff4c4c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom left, #ff4c4c, #ab0d26);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom left, #ff4c4c, #ab0d26);
   }
 
   &__pineapple{

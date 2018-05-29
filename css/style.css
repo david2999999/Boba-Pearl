@@ -50,6 +50,118 @@ body, html {
     margin-top: -22rem;
     letter-spacing: 1px; }
 
+.boba {
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 1rem; }
+  .boba__tapioca {
+    background: black;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom left, black, lightcyan);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom left, black, lightcyan); }
+  .boba__strawberry {
+    background: #ab0d26;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom left, #ff9999, #ab0d26);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom left, #ff9999, #ab0d26); }
+  .boba__pineapple {
+    background: orange;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom left, orange, yellow);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom left, orange, yellow); }
+  .boba__lychee {
+    background: #ec2f55;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom left, #ec2f55, #f1928c);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom left, #ec2f55, #f1928c); }
+  .boba__rainbow {
+    background: #9796f0;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fbc7d4, #9796f0);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+  .boba__green-apple {
+    background: lightgreen;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, lightgreen, #ccffcc);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, lightgreen, #ccffcc); }
+  .boba__passion-fruit {
+    background: #E2B1CD;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFDEE5, #E2B1CD);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFDEE5, #E2B1CD); }
+  .boba__mango {
+    background: #FF8243;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF8243, #FFE043);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF8243, #FFE043); }
+
+.jelly {
+  padding: 6px 12px 6px 12px;
+  display: inline-block;
+  margin-left: 1rem;
+  border-radius: 2px; }
+  .jelly__aloe-vera {
+    background: #B2FFB2;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom left, #B2FFB2, white);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom left, #B2FFB2, white);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+  .jelly__strawberry {
+    background: #ff4c4c;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom left, #ff4c4c, #ab0d26);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom left, #ff4c4c, #ab0d26); }
+  .jelly__pineapple {
+    background: orange;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom left, orange, yellow);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom left, orange, yellow); }
+  .jelly__lychee {
+    background: #ec2f55;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom left, #ec2f55, #f1928c);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom left, #ec2f55, #f1928c); }
+  .jelly__rainbow {
+    background: #9796f0;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fbc7d4, #9796f0);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+  .jelly__green-apple {
+    background: lightgreen;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, lightgreen, #ccffcc);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, lightgreen, #ccffcc); }
+  .jelly__passion-fruit {
+    background: #E2B1CD;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFDEE5, #E2B1CD);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFDEE5, #E2B1CD); }
+  .jelly__mango {
+    background: #FF8243;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF8243, #FFE043);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF8243, #FFE043); }
+
 .button-primary {
   padding: 1rem;
   width: 15rem;
@@ -187,7 +299,6 @@ body, html {
       margin-bottom: 2rem;
       flex-wrap: wrap; }
       .menu__section__flavor__item {
-        background-color: white;
         padding: 2rem;
         margin: 0 1rem 1rem 1rem;
         flex: 1;
@@ -195,7 +306,9 @@ body, html {
         text-align: center;
         -webkit-box-shadow: 1px 5px 12px 0px #4f4f4f;
         -moz-box-shadow: 1px 5px 12px 0px #4f4f4f;
-        box-shadow: 1px 5px 12px 0px #4f4f4f; }
+        box-shadow: 1px 5px 12px 0px #4f4f4f;
+        background: url("../img/bubble-tea.jpg");
+        background-size: cover; }
         .menu__section__flavor__item__title {
           font-size: 2rem;
           margin-bottom: 1.5rem; }
@@ -205,7 +318,8 @@ body, html {
           justify-content: space-around; }
         .menu__section__flavor__item__ul {
           font-size: 1.6rem;
-          list-style-type: none; }
+          list-style-type: none;
+          padding: 0 .5rem 0 .5rem; }
           .menu__section__flavor__item__ul__li {
             margin: 0 4px 5px 4px; }
             .menu__section__flavor__item__ul__li__a {
@@ -223,7 +337,10 @@ body, html {
         padding: 2rem;
         margin: 0 1rem 1rem 1rem;
         border-radius: 5px;
-        text-align: center; }
+        text-align: center;
+        -webkit-box-shadow: 1px 5px 12px 0px #4f4f4f;
+        -moz-box-shadow: 1px 5px 12px 0px #4f4f4f;
+        box-shadow: 1px 5px 12px 0px #4f4f4f; }
         .menu__section__toppings__item__container {
           display: flex;
           flex-wrap: wrap;
@@ -231,7 +348,8 @@ body, html {
         .menu__section__toppings__item__ul {
           list-style: none;
           font-size: 1.6rem;
-          color: #777; }
+          color: #777;
+          margin: 0 2rem 0 2rem; }
           .menu__section__toppings__item__ul__li {
             margin-bottom: .5rem; }
             .menu__section__toppings__item__ul__li__link {
@@ -308,7 +426,8 @@ body, html {
   width: 4rem;
   transform: rotate(180deg);
   position: relative;
-  margin: 1rem; }
+  margin: 1rem;
+  border-radius: 3px; }
   .xs-cup__tea {
     border-bottom: 5rem solid #D0AAF3; }
   .xs-cup__milk-tea {
