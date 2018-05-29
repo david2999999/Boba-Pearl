@@ -260,6 +260,11 @@ body, html {
       display: inline-block;
       width: 45%;
       margin-top: 2rem; }
+      .menu__section__selection__promotion {
+        position: absolute;
+        top: 0;
+        left: -3.1rem;
+        transform: rotate(-45deg); }
       .menu__section__selection:hover {
         cursor: pointer;
         transform: translateY(-3px); }
@@ -292,8 +297,8 @@ body, html {
         .menu__section__horizontal__list__item__promotion {
           position: absolute;
           transform: rotate(-40deg);
-          top: 2rem;
-          left: -3rem; }
+          top: 1rem;
+          left: -3.3rem; }
         .menu__section__horizontal__list__item__title {
           font-size: 2rem;
           color: #777; }
@@ -314,7 +319,13 @@ body, html {
         -moz-box-shadow: 1px 5px 12px 0px #4f4f4f;
         box-shadow: 1px 5px 12px 0px #4f4f4f;
         background: url("../img/bubble-tea.jpg");
-        background-size: cover; }
+        background-size: cover;
+        position: relative; }
+        .menu__section__flavor__item__promotion {
+          position: absolute;
+          top: 2rem;
+          transform: rotate(-40deg);
+          left: -3rem; }
         .menu__section__flavor__item__title {
           font-size: 2rem;
           margin-bottom: 1.5rem; }
@@ -346,7 +357,13 @@ body, html {
         text-align: center;
         -webkit-box-shadow: 1px 5px 12px 0px #4f4f4f;
         -moz-box-shadow: 1px 5px 12px 0px #4f4f4f;
-        box-shadow: 1px 5px 12px 0px #4f4f4f; }
+        box-shadow: 1px 5px 12px 0px #4f4f4f;
+        position: relative; }
+        .menu__section__toppings__item__promotion {
+          position: absolute;
+          top: 1.6rem;
+          left: -6rem;
+          transform: rotate(-30deg); }
         .menu__section__toppings__item__container {
           display: flex;
           flex-wrap: wrap;
@@ -513,16 +530,45 @@ body, html {
   font-size: 1.6rem;
   font-family: 'Dancing Script', cursive;
   font-weight: 700;
-  background: #ff0084;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top right, #33001b, #ff0084);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top right, #33001b, #ff0084);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
   width: fit-content;
-  padding: .5rem;
   border-radius: 5px; }
+  .promotion__special {
+    background: #ff0084;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top right, #33001b, #ff0084);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top right, #33001b, #ff0084);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: .5rem; }
+  .promotion__new {
+    background: #D0AAF3;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom right, #D0AAF3, #a155e7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom right, #D0AAF3, #a155e7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: .5rem 2rem .5rem 2rem; }
+  .promotion__info {
+    background: #FFC3A0;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top right, #FFC3A0, #FFEB7F);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top right, #FFC3A0, #FFEB7F);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: .5rem;
+    color: black; }
+    .promotion__info__p {
+      font-size: 2rem;
+      font-weight: bolder; }
+  .promotion__popular {
+    background: #ec008c;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #fc6767, #ec008c);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #fc6767, #ec008c);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: .5rem 2rem .5rem 2rem; }
 
 .header-1 {
   background: #272b33;

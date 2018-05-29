@@ -30,7 +30,6 @@
     &__selection{
       background-color: white;
       padding: 2rem;
-
       font-size: 2rem;
       border-radius: 3px;
       -webkit-box-shadow: 1px 5px 12px 0px rgba(79,79,79,1);
@@ -43,6 +42,13 @@
       display: inline-block;
       width: 45%;
       margin-top: 2rem;
+
+      &__promotion{
+        position: absolute;
+        top: 0;
+        left: -3.1rem;
+        transform: rotate(-45deg);
+      }
 
       &:hover{
         cursor: pointer;
@@ -62,6 +68,8 @@
         top: 2.5rem;
         right: 8rem;
       }
+
+
 
     }
 
@@ -88,8 +96,8 @@
           &__promotion{
             position: absolute;
             transform: rotate(-40deg);
-            top: 2rem;
-            left: -3rem;
+            top: 1rem;
+            left: -3.3rem;
           }
 
           &__title{
@@ -124,6 +132,14 @@
         box-shadow: 1px 5px 12px 0px rgba(79,79,79,1);
         background: url("../img/bubble-tea.jpg");
         background-size: cover;
+        position: relative;
+
+        &__promotion{
+          position: absolute;
+          top: 2rem;
+          transform: rotate(-40deg);
+          left: -3rem;
+        }
 
         &__title{
           font-size: 2rem;
@@ -174,8 +190,14 @@
         -webkit-box-shadow: 1px 5px 12px 0px rgba(79,79,79,1);
         -moz-box-shadow: 1px 5px 12px 0px rgba(79,79,79,1);
         box-shadow: 1px 5px 12px 0px rgba(79,79,79,1);
-        //background: url("../img/topping.jpg");
-        //background-size: cover;
+        position: relative;
+
+        &__promotion{
+          position: absolute;
+          top: 1.6rem;
+          left: -6rem;
+          transform: rotate(-30deg);
+        }
 
         &__container{
           display: flex;

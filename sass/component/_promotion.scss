@@ -2,9 +2,33 @@
   font-size: 1.6rem;
   font-family: 'Dancing Script', cursive;
   font-weight: 700;
-  @include linear-gradient-flickr;
   color: white;
   width: fit-content;
-  padding: .5rem;
   border-radius: 5px;
+
+  &__special{
+    @include linear-gradient-flickr;
+    padding: .5rem;
+  }
+
+  &__new{
+    @include linear-gradient-taro;
+    padding: .5rem 2rem .5rem 2rem;
+  }
+
+  &__info{
+    @include linear-gradient-milk-tea;
+    padding: .5rem;
+    color: black;
+
+    &__p{
+      font-size: 2rem;
+      font-weight: bolder;
+    }
+  }
+
+  &__popular{
+    @include linear-gradient-dimigo;
+    padding: .5rem 2rem .5rem 2rem;
+  }
 }

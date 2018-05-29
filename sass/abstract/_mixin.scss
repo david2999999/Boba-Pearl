@@ -6,15 +6,15 @@
 
 @mixin linear-gradient-taro{
   background: $color-taro;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, $color-taro, $color-dark-taro);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, $color-taro, $color-dark-taro); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to bottom right, $color-taro, $color-dark-taro);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom right, $color-taro, $color-dark-taro); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 @mixin linear-gradient-milk-tea{
 
   background: $color-milk-tea;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, $color-milk-tea, $color-mango);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, $color-milk-tea, $color-mango); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to top right, $color-milk-tea, $color-mango);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top right, $color-milk-tea, $color-mango); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 @mixin linear-gradient-taro-white{
@@ -49,6 +49,12 @@
   background: -webkit-linear-gradient(to top right, #33001b, #ff0084);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top right, #33001b, #ff0084); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+}
+
+@mixin linear-gradient-dimigo{
+  background: #ec008c;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #fc6767, #ec008c);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #fc6767, #ec008c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 @mixin absCenter{
