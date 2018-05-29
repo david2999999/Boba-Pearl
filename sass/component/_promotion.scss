@@ -1,0 +1,10 @@
+.promotion{
+  font-size: 1.6rem;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+  @include linear-gradient-flickr;
+  color: white;
+  width: fit-content;
+  padding: .5rem;
+  border-radius: 5px;
+}

@@ -72,7 +72,6 @@
         flex-wrap: wrap;
         justify-content: space-around;
 
-
         &__item{
           background-color: white;
           padding: 2rem;
@@ -84,6 +83,14 @@
           -moz-box-shadow: 1px 5px 12px 0px rgba(79,79,79,1);
           box-shadow: 1px 5px 12px 0px rgba(79,79,79,1);
           transition: all .3s;
+          position: relative;
+
+          &__promotion{
+            position: absolute;
+            transform: rotate(-40deg);
+            top: 2rem;
+            left: -3rem;
+          }
 
           &__title{
             font-size: 2rem;

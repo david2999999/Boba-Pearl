@@ -287,7 +287,13 @@ body, html {
         -webkit-box-shadow: 1px 5px 12px 0px #4f4f4f;
         -moz-box-shadow: 1px 5px 12px 0px #4f4f4f;
         box-shadow: 1px 5px 12px 0px #4f4f4f;
-        transition: all .3s; }
+        transition: all .3s;
+        position: relative; }
+        .menu__section__horizontal__list__item__promotion {
+          position: absolute;
+          transform: rotate(-40deg);
+          top: 2rem;
+          left: -3rem; }
         .menu__section__horizontal__list__item__title {
           font-size: 2rem;
           color: #777; }
@@ -502,6 +508,21 @@ body, html {
     border-top-left-radius: 2px;
     transform: rotate(180deg);
     opacity: .8; }
+
+.promotion {
+  font-size: 1.6rem;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+  background: #ff0084;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top right, #33001b, #ff0084);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top right, #33001b, #ff0084);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  width: fit-content;
+  padding: .5rem;
+  border-radius: 5px; }
 
 .header-1 {
   background: #272b33;
