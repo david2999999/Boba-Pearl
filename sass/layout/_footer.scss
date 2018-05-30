@@ -35,6 +35,7 @@
       font-size: 2.5rem;
       font-weight: bold;
       padding: 3rem 0 3rem 0;
+      letter-spacing: 1px;
     }
 
     &__subscription{
@@ -52,11 +53,30 @@
         padding: 2rem;
         font-size: 2rem;
         color: white;
-        background-color: $color-coffee;
+        @include linear-gradient-taro;
         border-radius: 3px;
 
         &:hover{
           cursor: pointer;
+          @include linear-gradient-milk-tea;
+        }
+      }
+    }
+
+    &__ul{
+      list-style: none;
+      font-size: $default-font-size;
+
+      &__li{
+        padding-bottom: 1rem;
+
+        &__a{
+          text-decoration: none;
+          color: white;
+
+          &:hover{
+            color: $color-green-tea;
+          }
         }
       }
     }
