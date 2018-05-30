@@ -578,6 +578,13 @@ body, html {
   display: flex;
   flex-wrap: wrap;
   color: whitesmoke; }
+  .footer__2 {
+    font-size: 1.6rem;
+    background-color: black;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px; }
   .footer__section {
     flex: 1;
     padding: 10rem;
