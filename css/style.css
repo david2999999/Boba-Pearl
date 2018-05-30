@@ -595,6 +595,26 @@ body, html {
     .footer__section__detail {
       font-size: 1.6rem;
       padding-bottom: 1rem; }
+    .footer__section__title {
+      font-size: 2.5rem;
+      font-weight: bold;
+      padding: 3rem 0 3rem 0; }
+    .footer__section__subscription {
+      margin-top: 2rem; }
+      .footer__section__subscription__input {
+        background-color: white;
+        padding: 2rem;
+        border-radius: 3px;
+        font-size: 2rem;
+        color: #777; }
+      .footer__section__subscription__button {
+        padding: 2rem;
+        font-size: 2rem;
+        color: white;
+        background-color: #6f4e37;
+        border-radius: 3px; }
+        .footer__section__subscription__button:hover {
+          cursor: pointer; }
 
 .header-1 {
   background: #272b33;
