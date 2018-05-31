@@ -75,6 +75,9 @@
     &__ul{
       list-style: none;
       font-size: $default-font-size;
+      padding: 0 15rem 0 15rem;
+      width: fit-content;
+      margin: 0 auto;
 
       &__li{
         padding-bottom: 1rem;
