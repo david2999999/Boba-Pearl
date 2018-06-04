@@ -27,7 +27,7 @@ public class Drink {
 	
 	private String description;
 	
-	@OneToOne
+	@OneToOne(cascade = CascadeType.PERSIST)
 	private Base base;
 	
 	@Enumerated(value = EnumType.STRING)
@@ -36,4 +36,6 @@ public class Drink {
 	@OneToMany(cascade = CascadeType.PERSIST, mappedBy = "drink")
 	private Set<Topping> toppings;
 	
+	@OneToMany(cascade = CascadeType.ALL, mappedBy = "drink")
+	private Set<Sweetener> sweeteners;
 }

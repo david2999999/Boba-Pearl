@@ -21,7 +21,7 @@ public class Base {
 	
 	private String description;
 	
-	@OneToOne(cascade = CascadeType.PERSIST, mappedBy = "base")
+	@OneToOne(cascade = CascadeType.PERSIST)
 	private Flavor flavor;
 
 }
